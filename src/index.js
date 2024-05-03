@@ -46,15 +46,15 @@ locCard2.append(locDet2);
 content.appendChild(homediv)
 
 training1.addEventListener("click", () => {
-  content.innerHTML = {};
+  content.innerHTML = '';
   content.appendChild(training);
 });
 about1.addEventListener("click", () => {
-  content.innerHTML = {};
+  content.innerHTML = '';
   content.appendChild(about);
 });
 
 home.addEventListener("click", () => {
-  content.innerHTML = {};
+  content.innerHTML = '';
   content.appendChild(homediv);
 });

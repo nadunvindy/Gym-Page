@@ -1,4 +1,6 @@
 import "./styles.css"
+import training from "./training"
+import about from "./about";
 
 let content = document.querySelector("#content");
 let title = document.createElement("h1");

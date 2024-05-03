@@ -12,7 +12,7 @@ let locCard1 = document.createElement("div");
 let locCard2 = document.createElement("div");
 let locations = document.createElement("div");
 
-training.className = "training1"
+training.className = "training1";
 locCard1.className = "locCard1";
 locCard2.className = "locCard2";
 locations.className = "locations";

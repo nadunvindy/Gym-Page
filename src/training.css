@@ -1,60 +1,59 @@
 .title {
-    font-family: monospace;
-  }
-  
-  * {
-    font-family: monospace;
-  }
-  
-  body {
-    margin: 0px;
-  }
-  
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    background-color: black;
-    color: white;
-  }
-  
-  .training1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  .items {
-    display: flex;
-  }
-  
-  .items > nav {
-    font-size: 20px;
-    margin-left: 50px;
-  }
-  
-  .items:nth-child(2) {
-    margin-right: 50px;
-  }
-  
-  header > h2 {
-    font-size: 35px;
-    margin-left: 20px;
-  }
-  
-  .locCard1,
-  .locCard2 {
-    display: flex;
-    flex-direction: column;
-    border: 3px solid black;
-    margin: 10px;
-  }
-  
-  .locations {
-    display: flex;
-    max-width: 600px;
-    max-height: 800px;
-  }
-  
+  font-family: monospace;
+}
+
+* {
+  font-family: monospace;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+.training1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.items {
+  display: flex;
+}
+
+.items > nav {
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.items:nth-child(2) {
+  margin-right: 50px;
+}
+
+header > h2 {
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.locCard1,
+.locCard2 {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  margin: 10px;
+}
+
+.locations {
+  display: flex;
+  max-width: 600px;
+  max-height: 800px;
+}

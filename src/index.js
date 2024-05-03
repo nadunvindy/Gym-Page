@@ -3,7 +3,7 @@ import training from "./training";
 import about from "./about";
 
 let training1 = document.querySelector("#training");
-let homediv = document.createElement("div")
+let homediv = document.createElement("div");
 let about1 = document.querySelector("#about");
 let home = document.querySelector("#home");
 let content = document.querySelector("#content");
@@ -33,28 +33,28 @@ loc2.textContent = "Thunderbolt Fight Club";
 locDet2.textContent =
   "Equipped with a rugged yet functional training environment, featuring heavy bags, sparring rings, and strength training apparatus.";
 
-  homediv.appendChild(title);
-  homediv.appendChild(subtitle);
-  homediv.appendChild(locationsTitle);
-  homediv.appendChild(locations);
+homediv.appendChild(title);
+homediv.appendChild(subtitle);
+homediv.appendChild(locationsTitle);
+homediv.appendChild(locations);
 locations.appendChild(locCard1);
 locations.appendChild(locCard2);
 locCard1.append(loc1);
 locCard1.append(locDet1);
 locCard2.append(loc2);
 locCard2.append(locDet2);
-content.appendChild(homediv)
+content.appendChild(homediv);
 
 training1.addEventListener("click", () => {
-  content.innerHTML = '';
+  content.innerHTML = "";
   content.appendChild(training);
 });
 about1.addEventListener("click", () => {
-  content.innerHTML = '';
+  content.innerHTML = "";
   content.appendChild(about);
 });
 
 home.addEventListener("click", () => {
-  content.innerHTML = '';
+  content.innerHTML = "";
   content.appendChild(homediv);
 });
